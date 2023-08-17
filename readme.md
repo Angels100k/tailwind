@@ -45,3 +45,12 @@ start using tailwindcss
     Hello world!
   </h1>
   ```
+
+  extra: 
+
+  server wide changes do this in index.css with the @apply to use tailwind classes
+  ```
+h1 {
+    @apply text-red-600
+}
+```
