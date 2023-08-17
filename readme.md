@@ -26,7 +26,7 @@ and add this code in it
 step 4, create a script in package.json
 ```
   "scripts": {
-    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+    "dev": "npx tailwindcss -i ./src/index.css -o ./dist/output.css --watch"
   }
 ```
 
